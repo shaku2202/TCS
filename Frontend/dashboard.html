@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Employee Management Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <div class="header">
+            <h1>Employee Management Dashboard</h1>
+            <div class="buttons">
+                <button class="add-btn">Add Employee</button>
+                <button class="logout-btn">Logout</button>
+            </div>
+        </div>
+        <div class="row heading">
+            <div class="col">Serial Number</div>
+            <div class="col">First Name</div>
+            <div class="col">Last Name</div>
+            <div class="col">Email</div>
+            <div class="col">Salary</div>
+            <div class="col">Date</div>
+            <div class="col">Actions</div>
+        </div>
+        <div class="row">
+            <div class="col">1</div>
+            <div class="col">John</div>
+            <div class="col">Doe</div>
+            <div class="col">john.doe@example.com</div>
+            <div class="col">$5000</div>
+            <div class="col">2024-03-28</div>
+            <div class="col">
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="./dashboard.js"></script>
 </body>
 </html>
