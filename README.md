@@ -56,7 +56,6 @@ project-root/
 
 4. Start the frontend and backend servers:
 
-5. Access the application at `http://localhost:3000` (frontend) and `http://localhost:5000` (backend).
 
 ## API Documentation
 
