@@ -24,7 +24,7 @@ signupLink.onclick = () => {
 
 
 // CONNECTION
-let url='http://localhost:4500'
+let url='https://tcs-osww.onrender.com'
 document.getElementById('register_btn').addEventListener('click',()=>{
     const name=document.getElementById('sign-up-username').value
     const email=document.getElementById('sign-up-email').value
